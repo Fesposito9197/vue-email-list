@@ -17,6 +17,7 @@ const { createApp } = Vue
             .then((response) =>{
                 console.log(response.data.response)
                 this.emails.push(response.data.response)
+                
             })
                        
         }
